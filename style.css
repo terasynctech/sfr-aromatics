@@ -1,0 +1,35 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url('/images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #1e5631; /* Brand green text color */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-size: 4em;
+    color: #145126; /* Darker green for the heading */
+}
+p {
+    font-size: 1.5em;
+    color: #3c763d; /* Text in lighter green */
+}
+.button {
+    margin-top: 30px;
+    padding: 15px 30px;
+    background-color: #1e5631; /* Button green */
+    border: none;
+    color: #fff;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.button:hover {
+    background-color: #145126; /* Darker green for hover */
+}
+.countdown div {
+    background: #c7ead6; /* Light green for timer background */
+    color: #1e5631; /* Timer text in dark green */
+}
