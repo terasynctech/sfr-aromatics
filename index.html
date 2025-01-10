@@ -1,10 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Welcome to SFR Aromatics</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homepage with Video</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    .video-container {
+      width: 100%;
+      max-width: 800px;
+      margin: 20px auto;
+    }
+
+    video {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+  </style>
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <p>This is a sample website for SFR Aromatics.</p>
+  <div class="video-container">
+    <h1>Welcome to SFR Aromatics</h1>
+    <video controls autoplay loop muted>
+      <source src="WhatsApp Video 2025-01-10 at 14.20.05_59469601.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <p>Experience the essence of SFR Aromatics</p>
+  </div>
 </body>
 </html>
